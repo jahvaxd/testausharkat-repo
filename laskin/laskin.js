@@ -15,7 +15,7 @@ Laskin.prototype.plusLasku = function (a, b) {
   const tulos = a + b;
   const tuloste = `${a} + ${b} = ${tulos}`;
   console.log(tuloste);
-  return tulos;
+  return tuls;
 };
 /**
  * Vähentää a - b ja palauttaa erotuksen tulos
