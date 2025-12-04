@@ -17,6 +17,6 @@ jobs:
           ls ${{ github.workspace }}
       - name: Set up test environment
         run: npm install
-      -name: Run tests
+      - name: Run tests
         run: npm test
       - run: echo "🍏 This job's status is ${{ job.status }}."
